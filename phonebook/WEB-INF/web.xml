@@ -1,0 +1,38 @@
+<web-app>
+	<welcome-file-list>  
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list> 
+	
+	<servlet>
+		<servlet-name>pdata</servlet-name>
+		<servlet-class>controller.PhonebookData</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>pdata</servlet-name>
+		<url-pattern>/myphonebookdetails</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>pread</servlet-name>
+		<servlet-class>controller.PhonebookRead</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>pread</servlet-name>
+		<url-pattern>/phonebookreaddetails</url-pattern>
+	
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>psearch</servlet-name>
+		<servlet-class>controller.SearchPhoneNoController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>psearch</servlet-name>
+		<url-pattern>/phonebooksearchdetails</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
