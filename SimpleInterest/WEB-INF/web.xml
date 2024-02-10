@@ -1,0 +1,13 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>sicalculate</servlet-name>
+		<servlet-class>controller.SimpleInterest</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>sicalculate</servlet-name>
+		<url-pattern>/simpleinterestcalculate</url-pattern>
+	</servlet-mapping>
+
+</web-app>

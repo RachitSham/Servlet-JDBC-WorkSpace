@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Calculate Simple Interset.</title>
+		<link rel="stylesheet" href="Style.css"> 
+	</head>
+	<body>
+			
+    <div class="container">
+     <form method="post" action="http://localhost:8080/SimpleInterest/simpleinterestcalculate"> 
+	
+        <div class="input-container"> 
+		<h2 style="color:red"><b>Calculate The Simple Interset</b></h2>
+		<p><b>* The simple interest rate formula (also referred to as an amortizing rate) calculates the interest owed on a daily or monthly basis.</b></p>
+            <label for="Initial Principle"> Initial Principle ($): </label> <br>
+            <input type="number" id="Initial Principle" name="iPrinciple" placeholder="Entet The Initial Principle"> <br>
+        </div> 
+		<br>
+		
+        <div class="input-container"> 
+		<label for="interest-rate"> Annual Interest Rate (%): </label> <br>
+            <input type="number" id="interest-rate" name="iRate" placeholder="Enter The annual interest rate"><br>			
+        </div> 
+		<br>
+		
+        <div class="input-container"> 
+            <label for="Time In years"> Number of Years:</label> <br>
+            <input type="number" id="Time In years" name="tYears" placeholder="Enter The number of years"><br> 
+        </div> 
+		<br>
+		
+        <input type="Submit" value="Submit"> <br>
+		
+        <div id="result" class="result-container"> </div> 
+		</form>
+    </div> 
+    </body>
+</html>
