@@ -1,0 +1,65 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>sone</servlet-name>
+		<servlet-class>com.ServletOne</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>sone</servlet-name>
+		<url-pattern>/myserviceone</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ssecond</servlet-name>
+		<servlet-class>com.ServletSecond</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ssecond</servlet-name>
+		<url-pattern>/myservicetwo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>sthird</servlet-name>
+		<servlet-class>com.ServletThird</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>sthird</servlet-name>
+		<url-pattern>/myservicethird</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>sfour</servlet-name>
+		<servlet-class>com.ServletFour</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>sfour</servlet-name>
+		<url-pattern>/myservicefour</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>sffive</servlet-name>
+		<servlet-class>com.ServletFormFive</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>sffive</servlet-name>
+		<url-pattern>/greet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>sfseven</servlet-name>
+		<servlet-class>com.ServletFormSeven</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>sfseven</servlet-name>
+		<url-pattern>/studentform</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>
