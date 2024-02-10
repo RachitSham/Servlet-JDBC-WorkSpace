@@ -1,0 +1,13 @@
+<web-app>
+	
+	<servlet>
+		<servlet-name>eform</servlet-name>
+		<servlet-class>com.EmployeeDetails</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>eform</servlet-name>
+		<url-pattern>/employeeform</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
