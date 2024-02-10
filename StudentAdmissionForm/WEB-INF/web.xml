@@ -1,0 +1,13 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>sform</servlet-name>
+		<servlet-class>controller.StudentAddmission</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>sform</servlet-name>
+		<url-pattern>/addmissiondetails</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
